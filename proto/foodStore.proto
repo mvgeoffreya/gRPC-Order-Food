@@ -1,0 +1,18 @@
+syntax = "proto3";
+package foodStore;
+import "common.proto";
+
+option go_package = "food/foodStore";
+option java_package = "com.proto.foodStore";
+option java_multiple_files = true;
+option csharp_namespace = "FoodStore";
+
+message FoodStoreRequest {
+  common.Cuisine cuisine = 1;
+}
+message FoodStoreResponse {
+  common.Food food  = 1;
+}
+service FoodStoreService {
+    rpc getFoods(FoodStoreRequest) returns (stream FoodStoreResponse) {};
+}

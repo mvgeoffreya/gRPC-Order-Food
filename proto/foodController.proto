@@ -1,0 +1,20 @@
+syntax = "proto3";
+package foodController;
+import "common.proto";
+
+option go_package = "food/foodController";
+option java_package = "com.proto.foodController";
+option java_multiple_files = true;
+option csharp_namespace = "FoodController";
+
+message FoodRequest {
+  string userid = 1;
+  common.Cuisine cuisine = 2;
+}
+message FoodResponse {
+  common.Food food = 1;
+}
+service FoodControllerService {
+  // unary rpc call to retrieve a movie
+  rpc getFood(FoodRequest) returns (FoodResponse) {};
+}
