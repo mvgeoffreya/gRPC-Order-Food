@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "zMtenYzHXh1tLlApswjUN8tzqKiTJZmaDH9ZFhkxsIvFMR/6m3XZQI64gFtuK6WPTFbMe1/quhvXnlI7QBdMrA==",
+  "success": true,
+  "projectFilePath": "/Users/geoffrey/Desktop/gRPC-Order-Food/grpc-client/grpc-client.csproj",
+  "expectedPackageFiles": [
+    "/Users/geoffrey/.nuget/packages/google.protobuf/3.17.3/google.protobuf.3.17.3.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/grpc.core/2.39.1/grpc.core.2.39.1.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/grpc.core.api/2.39.1/grpc.core.api.2.39.1.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/grpc.net.client/2.39.0/grpc.net.client.2.39.0.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/grpc.net.common/2.39.0/grpc.net.common.2.39.0.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/grpc.tools/2.39.1/grpc.tools.2.39.1.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.3/microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "/Users/geoffrey/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

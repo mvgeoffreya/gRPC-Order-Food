@@ -1,0 +1,2 @@
+obj/Debug/net5.0/Reverse.cs \
+obj/Debug/net5.0/ReverseGrpc.cs: ../proto/reverse.proto
