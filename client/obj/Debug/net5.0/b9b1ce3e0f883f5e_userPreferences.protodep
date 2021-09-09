@@ -1,0 +1,3 @@
+obj/Debug/net5.0/UserPreferences.cs \
+obj/Debug/net5.0/UserPreferencesGrpc.cs: ../proto/common.proto\
+ ../proto/userPreferences.proto

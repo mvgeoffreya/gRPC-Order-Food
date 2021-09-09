@@ -1,0 +1,3 @@
+obj/Debug/net5.0/FoodStore.cs \
+obj/Debug/net5.0/FoodStoreGrpc.cs: ../proto/common.proto\
+ ../proto/foodStore.proto

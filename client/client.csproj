@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>client</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Protobuf Include="../proto/common.proto" GrpcServices="Client" />
+    <Protobuf Include="../proto/foodController.proto" GrpcServices="Client" />
+    <Protobuf Include="../proto/foodStore.proto" GrpcServices="Client" />
+    <Protobuf Include="../proto/recommender.proto" GrpcServices="Client" />
+    <Protobuf Include="../proto/userPreferences.proto" GrpcServices="Client" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Google.Protobuf" Version="3.17.3" />
+    <PackageReference Include="Grpc.Core" Version="2.39.1" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.39.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.39.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
