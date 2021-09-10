@@ -51,10 +51,10 @@ namespace FoodStore {
     static readonly grpc::Marshaller<global::FoodStore.FoodStoreResponse> __Marshaller_foodStore_FoodStoreResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::FoodStore.FoodStoreResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::FoodStore.FoodStoreRequest, global::FoodStore.FoodStoreResponse> __Method_getFoods = new grpc::Method<global::FoodStore.FoodStoreRequest, global::FoodStore.FoodStoreResponse>(
+    static readonly grpc::Method<global::FoodStore.FoodStoreRequest, global::FoodStore.FoodStoreResponse> __Method_getFoodStore = new grpc::Method<global::FoodStore.FoodStoreRequest, global::FoodStore.FoodStoreResponse>(
         grpc::MethodType.ServerStreaming,
         __ServiceName,
-        "getFoods",
+        "getFoodStore",
         __Marshaller_foodStore_FoodStoreRequest,
         __Marshaller_foodStore_FoodStoreResponse);
 
@@ -92,14 +92,14 @@ namespace FoodStore {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncServerStreamingCall<global::FoodStore.FoodStoreResponse> getFoods(global::FoodStore.FoodStoreRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::FoodStore.FoodStoreResponse> getFoodStore(global::FoodStore.FoodStoreRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return getFoods(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return getFoodStore(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncServerStreamingCall<global::FoodStore.FoodStoreResponse> getFoods(global::FoodStore.FoodStoreRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::FoodStore.FoodStoreResponse> getFoodStore(global::FoodStore.FoodStoreRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncServerStreamingCall(__Method_getFoods, null, options, request);
+        return CallInvoker.AsyncServerStreamingCall(__Method_getFoodStore, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

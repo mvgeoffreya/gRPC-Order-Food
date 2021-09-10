@@ -27,10 +27,10 @@ namespace FoodStore {
             "Cg9mb29kU3RvcmUucHJvdG8SCWZvb2RTdG9yZRoMY29tbW9uLnByb3RvIjQK",
             "EEZvb2RTdG9yZVJlcXVlc3QSIAoHY3Vpc2luZRgBIAEoDjIPLmNvbW1vbi5D",
             "dWlzaW5lIi8KEUZvb2RTdG9yZVJlc3BvbnNlEhoKBGZvb2QYASABKAsyDC5j",
-            "b21tb24uRm9vZDJdChBGb29kU3RvcmVTZXJ2aWNlEkkKCGdldEZvb2RzEhsu",
-            "Zm9vZFN0b3JlLkZvb2RTdG9yZVJlcXVlc3QaHC5mb29kU3RvcmUuRm9vZFN0",
-            "b3JlUmVzcG9uc2UiADABQjMKE2NvbS5wcm90by5mb29kU3RvcmVQAVoOZm9v",
-            "ZC9mb29kU3RvcmWqAglGb29kU3RvcmViBnByb3RvMw=="));
+            "b21tb24uRm9vZDJhChBGb29kU3RvcmVTZXJ2aWNlEk0KDGdldEZvb2RTdG9y",
+            "ZRIbLmZvb2RTdG9yZS5Gb29kU3RvcmVSZXF1ZXN0GhwuZm9vZFN0b3JlLkZv",
+            "b2RTdG9yZVJlc3BvbnNlIgAwAUIzChNjb20ucHJvdG8uZm9vZFN0b3JlUAFa",
+            "DmZvb2QvZm9vZFN0b3JlqgIJRm9vZFN0b3JlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::FoodCommon.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

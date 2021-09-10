@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Grpc.Core;
 using FoodCommon;
-using FoodController;
+using UserProfile;
 using FoodStore;
-using Recommender;
-using UserPreferences;
 
 namespace csharp.client
 {
@@ -14,27 +12,27 @@ namespace csharp.client
     {
        static async Task Main(string[] args)
         {
-            var channelFoodController = new Channel("127.0.0.1:50051", ChannelCredentials.Insecure);
+            var channelUserProfile = new Channel("127.0.0.1:50051", ChannelCredentials.Insecure);
 
-            var clientFoodController = new FoodControllerService.FoodControllerServiceClient(channelFoodController);
+            var clientUserProfile = new UserProfileService.UserProfileServiceClient(channelUserProfile);
             var channelFoodStore = new Channel("127.0.0.1:50052", ChannelCredentials.Insecure);
             var clientFoodStore = new FoodStoreService.FoodStoreServiceClient(channelFoodStore);
             var Cuisine = new FoodCommon.Cuisine();
 
-            var responseFoodController = clientFoodController.getFood(new FoodRequest
+            var responseUserProfile = clientUserProfile.getUser(new UserProfileRequest
             {
-                Userid = "Geoffrey",
-                Cuisine = Cuisine.Vietnamese
+                Userid = "2",
             });
-            var responseFoodStore = clientFoodStore.getFoods(new FoodStoreRequest
+            var responseFoodStore = clientFoodStore.getFoodStore(new FoodStoreRequest
             {
                 Cuisine = Cuisine.Vietnamese
             });
             while (await responseFoodStore.ResponseStream.MoveNext())
             {
-                Console.WriteLine("Greeting: " + responseFoodStore.ResponseStream.Current.Food);
+                Console.WriteLine("FoodStore: " + responseFoodStore.ResponseStream.Current.Food);
             }
-            channelFoodController.ShutdownAsync().Wait();
+            Console.WriteLine("UserProfile: " + responseUserProfile);
+            channelUserProfile.ShutdownAsync().Wait();
             channelFoodStore.ShutdownAsync().Wait();
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();

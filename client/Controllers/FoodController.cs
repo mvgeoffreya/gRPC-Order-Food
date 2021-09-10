@@ -18,11 +18,11 @@ namespace client.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         
-        public async Task<Array> Get()
+        public async Task<string> Get(string id)
         {
-            return await Food.getFood("Geoffrey");
+            return await Food.getFood(id);
         }
     }
 }

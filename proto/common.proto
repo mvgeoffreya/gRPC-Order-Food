@@ -18,3 +18,8 @@ message Food {
   Cuisine cuisine = 3;
   string description = 4;
 }
+
+message UserProfile {
+  string userId = 1;
+  string username = 2;
+}

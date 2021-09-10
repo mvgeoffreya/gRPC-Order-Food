@@ -1,11 +1,11 @@
 package main
 
 import (
-	pb "food/foodController"
+	pb "food/userProfile"
 	"log"
 	"net"
 
-	"server"
+	"serverUserProfile"
 
 	"github.com/hashicorp/go-hclog"
 
@@ -25,7 +25,7 @@ func main() {
 	}
 	s := grpc.NewServer()
 	c := server.NewServer(logs)
-	pb.RegisterFoodControllerServiceServer(s, c)
+	pb.RegisterUserProfileServiceServer(s, c)
 	reflection.Register(s)
 
 	if err := s.Serve(lis); err != nil {

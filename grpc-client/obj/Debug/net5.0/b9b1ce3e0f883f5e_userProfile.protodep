@@ -1,0 +1,3 @@
+obj/Debug/net5.0/UserProfile.cs \
+obj/Debug/net5.0/UserProfileGrpc.cs: ../proto/common.proto\
+ ../proto/userProfile.proto

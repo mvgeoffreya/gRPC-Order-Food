@@ -15,13 +15,13 @@ func NewServer(l hclog.Logger) *server {
 	return &server{l}
 }
 
-func (s *server) GetFoods(in *pb.FoodStoreRequest, stream pb.FoodStoreService_GetFoodsServer) error {
-	s.log.Info("Handle request for GetFoods", "base", in)
+func (s *server) GetFoodStore(in *pb.FoodStoreRequest, stream pb.FoodStoreService_GetFoodStoreServer) error {
+	s.log.Info("Handle request for GetFoodStore", "base", in)
 	Food := ty.Food{}
 	Food.Cuisine = in.Cuisine
-	Food.Name = "cuisin11e"
+	Food.Name = "capcay"
 	Food.Rating = 3.4
-	Food.Description = "userid"
+	Food.Description = in.Cuisine.String()
 	res := &pb.FoodStoreResponse{
 		Food: &Food,
 	}

@@ -6,10 +6,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Protobuf Include="../proto/common.proto" GrpcServices="Client" />
-    <Protobuf Include="../proto/foodController.proto" GrpcServices="Client" />
+    <Protobuf Include="../proto/userProfile.proto" GrpcServices="Client" />
     <Protobuf Include="../proto/foodStore.proto" GrpcServices="Client" />
-    <Protobuf Include="../proto/recommender.proto" GrpcServices="Client" />
-    <Protobuf Include="../proto/userPreferences.proto" GrpcServices="Client" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />

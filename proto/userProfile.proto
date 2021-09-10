@@ -1,0 +1,19 @@
+syntax = "proto3";
+package userProfile;
+import "common.proto";
+
+option go_package = "food/userProfile";
+option java_package = "com.proto.userProfile";
+option java_multiple_files = true;
+option csharp_namespace = "UserProfile";
+
+message UserProfileRequest {
+  string userid = 1;
+}
+message UserProfileResponse {
+  common.UserProfile profile = 1;
+}
+service UserProfileService {
+  rpc getUser(UserProfileRequest) returns (UserProfileResponse) {};
+}
+s

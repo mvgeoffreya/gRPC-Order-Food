@@ -132,16 +132,16 @@ var file_foodStore_proto_rawDesc = []byte{
 	0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x20,
 	0x0a, 0x04, 0x66, 0x6f, 0x6f, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0c, 0x2e, 0x63,
 	0x6f, 0x6d, 0x6d, 0x6f, 0x6e, 0x2e, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x04, 0x66, 0x6f, 0x6f, 0x64,
-	0x32, 0x5d, 0x0a, 0x10, 0x46, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x53, 0x65, 0x72,
-	0x76, 0x69, 0x63, 0x65, 0x12, 0x49, 0x0a, 0x08, 0x67, 0x65, 0x74, 0x46, 0x6f, 0x6f, 0x64, 0x73,
-	0x12, 0x1b, 0x2e, 0x66, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x2e, 0x46, 0x6f, 0x6f,
-	0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x1c, 0x2e,
-	0x66, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x2e, 0x46, 0x6f, 0x6f, 0x64, 0x53, 0x74,
-	0x6f, 0x72, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x30, 0x01, 0x42,
-	0x33, 0x0a, 0x13, 0x63, 0x6f, 0x6d, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x2e, 0x66, 0x6f, 0x6f,
-	0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x50, 0x01, 0x5a, 0x0e, 0x66, 0x6f, 0x6f, 0x64, 0x2f, 0x66,
-	0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0xaa, 0x02, 0x09, 0x46, 0x6f, 0x6f, 0x64, 0x53,
-	0x74, 0x6f, 0x72, 0x65, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
+	0x32, 0x61, 0x0a, 0x10, 0x46, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x53, 0x65, 0x72,
+	0x76, 0x69, 0x63, 0x65, 0x12, 0x4d, 0x0a, 0x0c, 0x67, 0x65, 0x74, 0x46, 0x6f, 0x6f, 0x64, 0x53,
+	0x74, 0x6f, 0x72, 0x65, 0x12, 0x1b, 0x2e, 0x66, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65,
+	0x2e, 0x46, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73,
+	0x74, 0x1a, 0x1c, 0x2e, 0x66, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x2e, 0x46, 0x6f,
+	0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22,
+	0x00, 0x30, 0x01, 0x42, 0x33, 0x0a, 0x13, 0x63, 0x6f, 0x6d, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f,
+	0x2e, 0x66, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x50, 0x01, 0x5a, 0x0e, 0x66, 0x6f,
+	0x6f, 0x64, 0x2f, 0x66, 0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0xaa, 0x02, 0x09, 0x46,
+	0x6f, 0x6f, 0x64, 0x53, 0x74, 0x6f, 0x72, 0x65, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
 }
 
 var (
@@ -166,8 +166,8 @@ var file_foodStore_proto_goTypes = []interface{}{
 var file_foodStore_proto_depIdxs = []int32{
 	2, // 0: foodStore.FoodStoreRequest.cuisine:type_name -> common.Cuisine
 	3, // 1: foodStore.FoodStoreResponse.food:type_name -> common.Food
-	0, // 2: foodStore.FoodStoreService.getFoods:input_type -> foodStore.FoodStoreRequest
-	1, // 3: foodStore.FoodStoreService.getFoods:output_type -> foodStore.FoodStoreResponse
+	0, // 2: foodStore.FoodStoreService.getFoodStore:input_type -> foodStore.FoodStoreRequest
+	1, // 3: foodStore.FoodStoreService.getFoodStore:output_type -> foodStore.FoodStoreResponse
 	3, // [3:4] is the sub-list for method output_type
 	2, // [2:3] is the sub-list for method input_type
 	2, // [2:2] is the sub-list for extension type_name
@@ -238,7 +238,7 @@ const _ = grpc.SupportPackageIsVersion6
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
 type FoodStoreServiceClient interface {
-	GetFoods(ctx context.Context, in *FoodStoreRequest, opts ...grpc.CallOption) (FoodStoreService_GetFoodsClient, error)
+	GetFoodStore(ctx context.Context, in *FoodStoreRequest, opts ...grpc.CallOption) (FoodStoreService_GetFoodStoreClient, error)
 }
 
 type foodStoreServiceClient struct {
@@ -249,12 +249,12 @@ func NewFoodStoreServiceClient(cc grpc.ClientConnInterface) FoodStoreServiceClie
 	return &foodStoreServiceClient{cc}
 }
 
-func (c *foodStoreServiceClient) GetFoods(ctx context.Context, in *FoodStoreRequest, opts ...grpc.CallOption) (FoodStoreService_GetFoodsClient, error) {
-	stream, err := c.cc.NewStream(ctx, &_FoodStoreService_serviceDesc.Streams[0], "/foodStore.FoodStoreService/getFoods", opts...)
+func (c *foodStoreServiceClient) GetFoodStore(ctx context.Context, in *FoodStoreRequest, opts ...grpc.CallOption) (FoodStoreService_GetFoodStoreClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_FoodStoreService_serviceDesc.Streams[0], "/foodStore.FoodStoreService/getFoodStore", opts...)
 	if err != nil {
 		return nil, err
 	}
-	x := &foodStoreServiceGetFoodsClient{stream}
+	x := &foodStoreServiceGetFoodStoreClient{stream}
 	if err := x.ClientStream.SendMsg(in); err != nil {
 		return nil, err
 	}
@@ -264,16 +264,16 @@ func (c *foodStoreServiceClient) GetFoods(ctx context.Context, in *FoodStoreRequ
 	return x, nil
 }
 
-type FoodStoreService_GetFoodsClient interface {
+type FoodStoreService_GetFoodStoreClient interface {
 	Recv() (*FoodStoreResponse, error)
 	grpc.ClientStream
 }
 
-type foodStoreServiceGetFoodsClient struct {
+type foodStoreServiceGetFoodStoreClient struct {
 	grpc.ClientStream
 }
 
-func (x *foodStoreServiceGetFoodsClient) Recv() (*FoodStoreResponse, error) {
+func (x *foodStoreServiceGetFoodStoreClient) Recv() (*FoodStoreResponse, error) {
 	m := new(FoodStoreResponse)
 	if err := x.ClientStream.RecvMsg(m); err != nil {
 		return nil, err
@@ -283,39 +283,39 @@ func (x *foodStoreServiceGetFoodsClient) Recv() (*FoodStoreResponse, error) {
 
 // FoodStoreServiceServer is the server API for FoodStoreService service.
 type FoodStoreServiceServer interface {
-	GetFoods(*FoodStoreRequest, FoodStoreService_GetFoodsServer) error
+	GetFoodStore(*FoodStoreRequest, FoodStoreService_GetFoodStoreServer) error
 }
 
 // UnimplementedFoodStoreServiceServer can be embedded to have forward compatible implementations.
 type UnimplementedFoodStoreServiceServer struct {
 }
 
-func (*UnimplementedFoodStoreServiceServer) GetFoods(*FoodStoreRequest, FoodStoreService_GetFoodsServer) error {
-	return status.Errorf(codes.Unimplemented, "method GetFoods not implemented")
+func (*UnimplementedFoodStoreServiceServer) GetFoodStore(*FoodStoreRequest, FoodStoreService_GetFoodStoreServer) error {
+	return status.Errorf(codes.Unimplemented, "method GetFoodStore not implemented")
 }
 
 func RegisterFoodStoreServiceServer(s *grpc.Server, srv FoodStoreServiceServer) {
 	s.RegisterService(&_FoodStoreService_serviceDesc, srv)
 }
 
-func _FoodStoreService_GetFoods_Handler(srv interface{}, stream grpc.ServerStream) error {
+func _FoodStoreService_GetFoodStore_Handler(srv interface{}, stream grpc.ServerStream) error {
 	m := new(FoodStoreRequest)
 	if err := stream.RecvMsg(m); err != nil {
 		return err
 	}
-	return srv.(FoodStoreServiceServer).GetFoods(m, &foodStoreServiceGetFoodsServer{stream})
+	return srv.(FoodStoreServiceServer).GetFoodStore(m, &foodStoreServiceGetFoodStoreServer{stream})
 }
 
-type FoodStoreService_GetFoodsServer interface {
+type FoodStoreService_GetFoodStoreServer interface {
 	Send(*FoodStoreResponse) error
 	grpc.ServerStream
 }
 
-type foodStoreServiceGetFoodsServer struct {
+type foodStoreServiceGetFoodStoreServer struct {
 	grpc.ServerStream
 }
 
-func (x *foodStoreServiceGetFoodsServer) Send(m *FoodStoreResponse) error {
+func (x *foodStoreServiceGetFoodStoreServer) Send(m *FoodStoreResponse) error {
 	return x.ServerStream.SendMsg(m)
 }
 
@@ -325,8 +325,8 @@ var _FoodStoreService_serviceDesc = grpc.ServiceDesc{
 	Methods:     []grpc.MethodDesc{},
 	Streams: []grpc.StreamDesc{
 		{
-			StreamName:    "getFoods",
-			Handler:       _FoodStoreService_GetFoods_Handler,
+			StreamName:    "getFoodStore",
+			Handler:       _FoodStoreService_GetFoodStore_Handler,
 			ServerStreams: true,
 		},
 	},

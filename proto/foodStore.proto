@@ -14,5 +14,5 @@ message FoodStoreResponse {
   common.Food food  = 1;
 }
 service FoodStoreService {
-    rpc getFoods(FoodStoreRequest) returns (stream FoodStoreResponse) {};
+    rpc getFoodStore(FoodStoreRequest) returns (stream FoodStoreResponse) {};
 }
